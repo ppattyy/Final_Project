@@ -1,6 +1,6 @@
 body {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -8,23 +8,23 @@ body {
 
 .navbar {
     position: sticky;
+    z-index: 1000; 
+    display: flex;
     top: 0;
     width: 100%;
     background-color: #FEB8B8;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000; 
 }
 
 .navbar ul {
-    margin: 0;
-    padding: 0;
     display: flex;
+    padding: 0;
+    margin: 70;
 }
 
 .navbar ul li {
-    margin: 0 15px;
+    margin: 0 70px;
 }
 
 .navbar ul li a {
@@ -60,20 +60,19 @@ h1 {
 
 .buttons {
     position: absolute;
-    left: 50px;
     top: 100%;
+    left: 50px;
 }
 
 .buttons button {
+    cursor: pointer;
+    font-size: 30px; 
     display: block;
     margin-bottom: 50px; 
     padding: 10px 20px; 
     background-color: #FEB8B8;
     color: #ffffff;
-    font-size: 30px; 
     font-weight: bold;
-    border: none;
-    cursor: pointer;
 }
 
 .buttons .apply {
@@ -82,4 +81,20 @@ h1 {
 
 .buttons .join {
     color: #ffffff;
+}
+.right_text {
+    position: absolute;
+    font-style: italic;
+    top: 110%;
+    right: 50px;
+    text-align: right;
+}
+
+.italic {
+    font-size: 30px; 
+    color: #FEB8B8;
+}
+.right_text {
+    font-size: 30px; 
+    color: #FEB8B8;
 }
