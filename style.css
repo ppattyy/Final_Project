@@ -18,7 +18,6 @@ body {
 }
 
 .navbar ul {
-    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,8 +28,7 @@ body {
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -45,6 +43,43 @@ body {
 }
 
 h1 {
-    margin-top: 60px; 
+    margin-top: 40px; 
     text-align: center;
+}
+
+.header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header h1 {
+    color: #FEB8B8;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.buttons {
+    position: absolute;
+    left: 50px;
+    top: 100%;
+}
+
+.buttons button {
+    display: block;
+    margin-bottom: 50px; 
+    padding: 10px 20px; 
+    background-color: #FEB8B8;
+    color: #ffffff;
+    font-size: 30px; 
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons .apply {
+    color: #ffffff; 
+}
+
+.buttons .join {
+    color: #ffffff;
 }
