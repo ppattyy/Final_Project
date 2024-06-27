@@ -8,19 +8,19 @@ body {
 
 .navbar {
     position: sticky;
+    z-index: 1000; 
     top: 0;
     width: 100%;
     background-color: #FEB8B8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000; 
 }
 
 .navbar ul {
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 .navbar ul li {
@@ -65,13 +65,13 @@ h1 {
 }
 
 .buttons button {
+    font-weight: bold;
+    font-size: 16px; 
     display: block;
     margin-bottom: 90px; 
     padding: 10px 20px; 
     background-color: #FEB8B8;
     color: #ffffff;
-    font-size: 16px; 
-    font-weight: bold;
     border: none;
     cursor: pointer;
 }
@@ -92,7 +92,45 @@ h1 {
     font-style: italic;
 }
 
-.side-text .italic-text {
+.side-text .italic {
     font-size: 30px; 
     color: #FEB8B8;
+}
+
+.agent-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.agent {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.agent-image img {
+    height: 100px; 
+    margin-right: 20px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bio .book {
+    padding: 5px 10px;
+    background-color: #FEB8B8;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
