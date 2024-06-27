@@ -93,7 +93,7 @@ h1 {
 }
 
 .side-text .italic {
-    font-size: 30px; 
+    font-size: 55px; 
     color: #FEB8B8;
 }
 
@@ -127,10 +127,9 @@ h1 {
 }
 
 .bio .book {
-    padding: 10px 20px;
+    padding: 5px 12px;
     background-color: #FEB8B8;
     color: #ffffff;
     font-weight: bold;
-    border: none;
     cursor: pointer;
 }
