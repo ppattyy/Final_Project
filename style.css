@@ -93,7 +93,7 @@ h1 {
 }
 
 .side-text .italic {
-    font-size: 55px; 
+    font-size: 85px; 
     color: #FEB8B8;
 }
 
@@ -132,4 +132,82 @@ h1 {
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
+}
+.about-header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-header h1 {
+    color: #FEB8B8;
+    font-size: 36px; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.about-header p {
+    color: #FEB8B8;
+    font-size: 24px; /* Adjust as needed */
+}
+
+.about-content {
+    margin: 50px;
+}
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    color: #FEB8B8;
+    font-size: 28px; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.about-section p, .about-section ul {
+    color: #ffffff;
+    font-size: 18px; /* Adjust as needed */
+}
+
+.about-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    height: 100px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    color: #FEB8B8;
+    font-size: 20px; /* Adjust as needed */
+    margin: 0;
+}
+
+.team-member p {
+    color: #ffffff;
+    font-size: 16px; /* Adjust as needed */
 }
