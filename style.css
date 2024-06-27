@@ -117,8 +117,8 @@ h1 {
 
 .bio {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
 }
 
 .bio p {
@@ -159,11 +159,17 @@ h1 {
 
 .about-section h2 {
     color: #FEB8B8;
-    font-size: 30px; 
     font-weight: bold;
+    font-size: 30px; 
+    
 }
 
-.about-section p, .about-section ul {
+.about-section p {
+    color: #ffffff;
+    font-size: 20px; 
+}
+
+.about-section ul {
     color: #ffffff;
     font-size: 20px; 
 }
@@ -190,10 +196,10 @@ h1 {
 }
 
 .founder img {
+    margin-bottom: 10px;
     height: 100px;
     width: 100px; 
     border-radius: 50%;
-    margin-bottom: 10px;
 }
 
 .founder h3 {
