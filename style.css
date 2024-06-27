@@ -60,14 +60,13 @@ h1 {
 
 .buttons {
     position: absolute;
-    left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 70px;
+    top: 100%;
 }
 
 .buttons button {
     display: block;
-    margin-bottom: 20px; 
+    margin-bottom: 90px; 
     padding: 10px 20px; 
     background-color: #FEB8B8;
     color: #ffffff;
@@ -87,9 +86,8 @@ h1 {
 
 .side-text {
     position: absolute;
-    top: 50%;
+    top: 90%;
     right: 50px;
-    transform: translateY(-50%);
     text-align: right;
     font-style: italic;
 }
