@@ -39,7 +39,7 @@ body {
 }
 
 .navbar .logo img {
-    height: 70px; 
+    height: 90px; 
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
 .buttons {
     position: absolute;
     left: 70px;
-    top: 100%;
+    top: 60%;
 }
 
 .buttons button {
